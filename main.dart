@@ -29,9 +29,13 @@ class Loader extends StatelessWidget {
             // SizedBox(
             //   height: 1,
             // ),
-            LinearProgressIndicator(),
+            LinearProgressIndicator(
+              backgroundColor: Colors.red,
+              valueColor: AlwaysStoppedAnimation(Colors.black),
+              minHeight: 5,
+            ),
             SizedBox(
-              height: 671,
+              height: 400,
             )
           ],
         ),
